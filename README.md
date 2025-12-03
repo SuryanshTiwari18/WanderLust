@@ -1,134 +1,103 @@
-🧳 WanderLust – Full Stack Travel & Accommodation Listing Platform
+# 🧳 WanderLust – Full Stack Travel & Accommodation Listing Platform
 
 WanderLust is a full-stack travel/accommodation listing web application built using Node.js, Express, MongoDB (Mongoose), and EJS.
 It allows users to explore destinations, create and manage listings, write reviews, view interactive maps, and securely authenticate using industry-standard practices.
 
 This project showcases clean backend architecture, secure authentication, cloud integrations, and responsive UI design — making it a real-world, production-ready application.
 
-🚀 Live Demo
+# 🚀 Live Demo
 
 🔗 https://wanderlust-4jxr.onrender.com
 
-📖 Features
+# 📖 Features
 
 🔐 Secure Authentication
 
-Passport.js (Local Strategy)
+- Passport.js (Local Strategy)
 
-Session handling
+- Session handling
 
-JWT for stateless operations
+- JWT for stateless operations
 
 🏕️ Listings Management
 
-Create, Read, Update, Delete (CRUD) listings
+- Create, Read, Update, Delete (CRUD) listings
 
-Add multiple images uploaded via Cloudinary
+- Add multiple images uploaded via Cloudinary
 
-Price, description, location, geometry & more
+- Price, description, location, geometry & more
 
 ⭐ Review System
 
-Post, edit, and delete reviews
+- Post, edit, and delete reviews
 
-Server-side validation with Joi
+- Server-side validation with Joi
 
 🗺️ Interactive Map Integration
 
-Mapbox for geolocation, clustering, and location preview
+- Mapbox for geolocation, clustering, and location preview
 
 🛡️ Advanced Middleware
 
-Route protection (isLoggedIn)
+- Route protection (isLoggedIn)
 
-Ownership verification (isOwner, isReviewAuthor)
+- Ownership verification (isOwner, isReviewAuthor)
 
-Centralized error handling
+- Centralized error handling
 
 🎨 Responsive UI
 
-EJS templating with reusable components
+- EJS templating with reusable components
 
-Mobile-friendly layouts
+- Mobile-friendly layouts
 
-Flash messages for user feedback
+- Flash messages for user feedback
 
 🧱 Robust Backend Architecture
 
-RESTful API design
+- RESTful API design
 
-MVC pattern (Models → Controllers → Routes)
+- MVC pattern (Models → Controllers → Routes)
 
-Async error handling utilities
+- Async error handling utilities
 
-🧰 Tech Stack
-Frontend
+# 🧰 Tech Stack
+- Frontend
 
-EJS Templating Engine
+- EJS Templating Engine
 
-Custom CSS + vanilla JS
+- Custom CSS + vanilla JS
 
-Mapbox for maps
+- Mapbox for maps
 
 Backend
 
-Node.js
+- Node.js
 
-Express.js
+- Express.js
 
-MongoDB + Mongoose
+- MongoDB + Mongoose
 
-Security & Auth
+- Security & Auth
 
-Passport.js
+- Passport.js
 
-Express-session
+- Express-session
 
-JWT
+- JWT
 
-BCrypt password hashing
+- BCrypt password hashing
 
 Tools & Integrations
 
-Cloudinary (Image uploads)
+- Cloudinary (Image uploads)
 
-JOI (Input validation)
+- JOI (Input validation)
 
-connect-flash
+- connect-flash
 
-method-override
+- method-override
 
-dotenv
+- dotenv
 
-🗂️ Project Structure
-WanderLust
-├─ app.js
-├─ cloudConfig.js
-├─ controllers
-│  ├─ listings.js
-│  ├─ reviews.js
-│  └─ users.js
-├─ init
-│  ├─ data.js
-│  └─ index.js
-├─ middleware.js
-├─ models
-│  ├─ listing.js
-│  ├─ review.js
-│  └─ user.js
-├─ public
-│  ├─ css/
-│  └─ js/
-├─ routes
-│  ├─ listing.js
-│  ├─ review.js
-│  └─ user.js
-├─ schema.js
-├─ utils
-│  ├─ ExpressError.js
-│  └─ wrapAsync.js
-└─ views
-   ├─ layouts/
-   ├─ listings/
-   ├─ users/
-   └─ includes/
+
